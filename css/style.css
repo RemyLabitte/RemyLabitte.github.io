@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Haydon';
+  src: url("../fonts/haydon_brush/HaydonBrush_PERSONAL_USE.ttf");
+}
+
+@font-face {
+  font-family: 'coolvetica';
+  src: url("../fonts/coolvetica/coolvetica rg.ttf");
+}
+
+@font-face {
+  font-family: 'ordi';
+  src: url("../fonts/t_v/T.V..ttf");
+}
+
+@font-face {
+  font-family: 'dk';
+  src: url("../fonts/dk_lemon_yellow_sun/DK Lemon Yellow Sun.otf");
+}
+
+@font-face {
+  font-family: 'bn';
+  src: url("../fonts/bebas_neue/BebasNeue.otf");
+}
+
+nav {
+  width: 80px;
+}
+
+#side-nav {
+  text-align: center;
+}
+
+.side-nav a {
+  font-family: bn;
+}
+
+#btn-dl {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 350px;
+}
+
+#logo-icon {
+  margin-left: 15px;
+  margin-top: 10px;
+  color: black;
+}
+
+#logo-icon-petit {
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: black;
+}
+
+nav ul li a {
+  color: black;
+  font-family: Haydon;
+  font-size: 25px;
+}
+
+nav a img {
+  height: 64px;
+  position: relative;
+  padding: 4px;
+  margin-left: 15px;
+}
+
+#logo {
+  font-family: ordi;
+  color: black;
+  font-size: 34px;
+  position: relative;
+  padding: 4px;
+  margin-left: 15px;
+}
+
+#text-logo {
+  font-family: Haydon;
+  color: black;
+  font-size: 34px;
+  position: relative;
+  padding: 4px;
+  margin-left: 15px;
+}
+
+#text-logo-petit {
+  text-align: center;
+  font-family: Haydon;
+  color: black;
+  font-size: 34px;
+  position: relative;
+  padding: 4px;
+  margin-left: 15px;
+}
+
+h4 {
+  font-family: roboto;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-family: roboto;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  letter-spacing: 2px;
+}
+
+h6 {
+  font-family: roboto;
+  text-align: center;
+}
+
+span {
+  font-family: roboto;
+}
+
+#section {
+  width: 64px;
+  margin-bottom: 45px;
+  border-style: double;
+  color: black;
+  border-color: black;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f5f4;
+}
+
+#experiences {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*background-color: #f3f5f8;*/
+}
+
+#tools-abilities {
+  padding-bottom: 50px;
+  /*background-color: #f3f5f8;*/
+}
+
+#projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about p {
+  text-align: center;
+}
+
+#experiences .card {
+  color:white;
+  /*background-image: url("../public/fond-orange-rouge.png");*/
+}
+
+#experiences .card hr{
+  color: white;
+  border-color: white;
+}
+
+#experiences .card-header {
+  overflow: hidden;
+  width: 100%;
+  height:200px;
+  max-height: 200px;
+  background-color: white;
+}
+
+#experiences .card-header i{
+  width: 100%;
+  font-size: 150px;
+}
+
+#experiences .card-content {
+  overflow: visible;
+  width: 100%;
+  height: 175px;
+  min-height: 150px;
+  max-height: 200px;
+  font-family: roboto;
+}
+
+#experiences .card-footer {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: roboto;
+  font-size: 13px;
+  font-style: italic;
+  cursor:pointer;
+}
+
+#experiences .card-reveal {
+  background-color: rgb(150,50,40);
+  color: white;
+}
+
+#experiences i {
+  margin-left: 5px;
+}skills
+
+#skills .card {
+  background-color: rgb(150,50,40);
+  text-align: center;
+  height: 100px;
+}
+
+#skills .ul span {
+  color: black;
+}
+
+#footer-col {
+  text-align: center;
+}
+
+#hr-project {
+  width: 150px;
+  color: rgb(150,50,40);
+  border-color: rgb(150,50,40);
+  border-style: double;
+}
+
+#abilities .card {
+  text-align: center;
+  /*background-color: rgba(60,60,60,0.8);*/
+  background-image: url("../public/fond.jpeg");
+  color: white;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 175px;
+  border-color: black;
+}
+
+#abilities #section {
+  border-color: white;
+}
+
+#tools .card {
+  text-align: center;
+  /*font-size: 4em;*/
+  background-image: url("../public/fond.jpeg");
+  color: white;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 175px;
+  border-color: black;
+}
+/*#footer-title {
+  margin: 150px;
+  margin-top: 250px;
+  padding: 20px;
+  background-color: white;
+  text-align: inherit;
+  width: 550px;
+}*/
